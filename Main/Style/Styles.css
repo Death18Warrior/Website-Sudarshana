@@ -56,18 +56,3 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-.Heading{
-    height: 90px;
-    align-content: center;
-    text-align: center;
-    font-size: 35px;
-}
-.content{
-    padding: 20px;
-}
-#about_us{
-    justify-items: center;
-}
-#about_us .photo{
-    height: 100px;
-}
