@@ -67,6 +67,10 @@ body {
     text-align: center;
     align-content: center;
     /* padding-bottom: 50px; */
+    background: -webkit-radial-gradient(#ffff, #141416);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
 }
 
 #about_us {
@@ -75,6 +79,7 @@ body {
 
 #about_us p {
     padding-top: 10px;
+    text-align: justify;
 }
 
 .content {
@@ -82,6 +87,7 @@ body {
     width: 95%;
     margin: 2.5%;
     border-radius: 40px;
+    background-image: linear-gradient(#141416,#533f4d);
 }
 
 #overview,
@@ -107,6 +113,7 @@ body {
 #features .details p,
 #impact .details p {
     padding-top: 10px;
+    text-align: justify;
 }
 
 #overview .details h2,
@@ -115,4 +122,46 @@ body {
 #impact .details h2,
 #about_us .details h2 {
     text-align: center;
+}
+#contactForm  h1{
+    text-align: center;
+}
+#contactForm #form{
+    border: 1px solid white;
+    width: 85%;
+    margin: 2% 4.5% 2% 4.5%;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 3%;
+    background-image: linear-gradient(#533f4d,#141416);
+}
+#contactForm #form label
+{
+    display: block;
+    font-size: 17px;
+}
+#contactForm #form input,#contactForm #form textarea{
+    display: block;
+    width: 100%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-image: linear-gradient(#533f4d,#141416);
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+#contactForm #form button{
+    display: block;
+    width: 100%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    padding: 0.5%;
+    background-color: #EE7C53;
+    border: 0.5px solid #A3492F;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+#contactForm #form button:hover{
+    cursor: pointer;
 }
