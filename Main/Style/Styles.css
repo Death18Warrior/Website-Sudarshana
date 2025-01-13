@@ -26,7 +26,8 @@ body {
     color: white;
 }
 
-.left,.right {
+.left,
+.right {
     display: flex;
 }
 
@@ -46,49 +47,71 @@ body {
     list-style-type: none;
     display: flex;
 }
-.navbar-links li{
+
+.navbar-links li {
     margin: 0px 0px 0px 10px;
     padding: 7px;
     font-size: 20px;
 }
-.navbar-links li:hover{
+
+.navbar-links li:hover {
     background-color: #533f4d;
     border-radius: 5px;
     cursor: pointer;
 }
-.Heading{
+
+.Heading {
     height: 90px;
     font-size: 40px;
     text-align: center;
     align-content: center;
     /* padding-bottom: 50px; */
 }
-#about_us{
+
+#about_us {
     padding: 35px;
 }
-#about_us p{
+
+#about_us p {
     padding-top: 10px;
 }
-.content{
+
+.content {
     border: 5px solid #533f4d;
     width: 95%;
     margin: 2.5%;
     border-radius: 40px;
 }
-#overview,#how_it_works,#features,#impact
-{
+
+#overview,
+#how_it_works,
+#features,
+#impact {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 35px;
 }
-#overview .photo, #how_it_works .photo,#features .photo,#impact .photo{
+
+#overview .photo,
+#how_it_works .photo,
+#features .photo,
+#impact .photo {
     border: 2px solid white;
     margin-left: 10%;
     border-radius: 15px;
 }
-#overview .details p, #how_it_works .details p,#features .details p,#impact .details p{
+
+#overview .details p,
+#how_it_works .details p,
+#features .details p,
+#impact .details p {
     padding-top: 10px;
 }
-#overview .details h2, #how_it_works .details h2,#features .details h2,#impact .details h2,#about_us .details h2{
+
+#overview .details h2,
+#how_it_works .details h2,
+#features .details h2,
+#impact .details h2,
+#about_us .details h2 {
     text-align: center;
 }
