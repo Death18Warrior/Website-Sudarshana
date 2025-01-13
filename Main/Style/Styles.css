@@ -105,7 +105,10 @@ body {
 #impact .photo {
     border: 2px solid white;
     margin-left: 10%;
-    border-radius: 15px;
+    border-radius: 50% 0% 50% 0%;
+    height: 250px;
+    width: 250px;
+    margin-left: 35%;
 }
 
 #overview .details p,
