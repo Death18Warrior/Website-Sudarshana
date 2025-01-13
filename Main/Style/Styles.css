@@ -16,6 +16,8 @@ body {
     color: white;
     padding: 10px 20px;
     height: 100px;
+    position: fixed;
+    top: 0;
 }
 
 .navbar-container {
