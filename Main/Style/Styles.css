@@ -5,6 +5,7 @@
 
 body {
     background-color: #141416;
+    overflow-x: hidden;
 }
 
 .main {
