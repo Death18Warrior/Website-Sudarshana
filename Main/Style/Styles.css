@@ -16,9 +16,6 @@ body {
     color: white;
     padding: 10px 20px;
     height: 100px;
-    position: sticky;
-    top: 0;
-    background-color: #141416;
 }
 
 .navbar-container {
@@ -170,4 +167,5 @@ body {
 }
 #contactForm #form button:hover{
     cursor: pointer;
+    background-color: #A3492F;
 }
