@@ -152,6 +152,7 @@ body {
     background-image: linear-gradient(#533f4d,#141416);
     border: 0.5px solid white;
     border-radius: 5px;
+    color: white;
 }
 #contactForm #form button{
     display: block;
