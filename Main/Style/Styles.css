@@ -156,7 +156,8 @@ body {
 }
 #contactForm #form button{
     display: block;
-    width: 100%;
+    justify-content: center;
+    width: 102%;
     margin-top: 0.5%;
     margin-bottom: 2%;
     padding: 0.5%;
@@ -169,6 +170,8 @@ body {
 #contactForm #form button:hover{
     cursor: pointer;
     background-color: #A3492F;
+    border: 1px solid #EE7C53;
+    border-radius: 5px;
 }
 #responseMessage {
     text-align: center;
