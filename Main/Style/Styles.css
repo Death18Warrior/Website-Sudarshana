@@ -33,13 +33,13 @@ body {
 }
 
 .left img {
-    width: 100px;
+    width: 150px;
 }
 
 .right {
     position: relative;
     left: 600px;
-    top: -100px;
+    top: -150px;
     align-items: center;
     height: 100px;
 }
@@ -62,15 +62,12 @@ body {
 }
 
 .Heading {
-    height: 90px;
+    height: 110px;
     font-size: 40px;
     text-align: center;
     align-content: center;
     /* padding-bottom: 50px; */
-    background: -webkit-radial-gradient(#ffff, #141416);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+   animation: color 1s cubic-bezier(0.64, -0.12, 0.31, 1.01) infinite;
 }
 
 #about_us {
@@ -100,15 +97,21 @@ body {
 }
 
 #overview .photo,
-#how_it_works .photo,
-#features .photo,
-#impact .photo {
+#features .photo {
     border: 2px solid white;
-    margin-left: 10%;
     border-radius: 50% 0% 50% 0%;
     height: 250px;
     width: 250px;
     margin-left: 35%;
+}
+#how_it_works .photo,#impact .photo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 2px solid white;
+    border-radius: 0% 50% 0% 50%;
+    height: 250px;
+    width: 250px;
+    margin-left: 25%;
 }
 
 #overview .details p,
@@ -118,7 +121,10 @@ body {
     padding-top: 10px;
     text-align: justify;
 }
-
+#how_it_works .details,#impact .details{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 #overview .details h2,
 #how_it_works .details h2,
 #features .details h2,
@@ -179,14 +185,29 @@ body {
     font-size: 14px;
     color: #28a745;
 }
-input:is(:-webkit-autofill, :autofill) {
-    display: block;
-    width: 102%;
-    margin-top: 0.5%;
-    margin-bottom: 2%;
-    padding: 1%;
+/* input:-webkit-autofill{
     background-image: linear-gradient(#533f4d,#141416);
+     
+     -webkit-text-fill-color:#ffffff;
     border: 0.5px solid white;
     border-radius: 5px;
-    color: white;
-  }
+    /* color: white; */
+  @keyframes color {
+    0% {
+        background: -webkit-linear-gradient(#ffff, #141416);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background: -webkit-radial-gradient(#ffff, #141416);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+
+    100% {
+        background: -webkit-linear-gradient( #141416,#ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;;
+    }
+}
