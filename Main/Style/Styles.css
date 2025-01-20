@@ -91,6 +91,7 @@ body {
 #about_us p {
     padding-top: 10px;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 .content {
@@ -188,6 +189,25 @@ body {
         grid-row: 1/2;
     }
 }
+@media screen and (max-width:600px) {
+    #overview .photo ,
+    #how_it_works .photo ,
+    #features .photo ,
+    #impact .photo  {
+        width: 150px;  /* Adjust the size for smaller screens */
+        height: 150px;
+    }
+}
+@media screen and (max-width:600px) {
+    #overview .photo img,
+    #how_it_works .photo img,
+    #features .photo img,
+    #impact .photo img {
+        width: 150px;  /* Adjust the size for smaller screens */
+        height: 150px;
+    }
+}
+
 
 #overview .details h2,
 #how_it_works .details h2,
@@ -214,6 +234,7 @@ body {
 #contactForm #form label {
     display: block;
     font-size: 17px;
+    margin-bottom: 5px;
 }
 
 #contactForm #form input,
