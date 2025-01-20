@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-container {
-    margin: 1%;
+    margin: 2em;
     position: fixed;
     display: flex;
     flex-direction: row;
