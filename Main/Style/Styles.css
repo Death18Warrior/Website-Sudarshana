@@ -14,50 +14,60 @@ body {
 
 #navbar {
     color: white;
-    padding: 1% 2%;
-    height: 100px;
+    padding: 1% 1%;
+    margin-bottom: 20%;
 }
 
 .navbar-container {
-    height: 100px;
+    margin: 1%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px #EE7C53;
+    border-radius: 40px;
+
 }
 
 .navbar-links a {
     text-decoration: none;
     color: white;
+    text-wrap-mode: nowrap;
 }
+.left{
+    flex: 40%;  
 
-.left,
-.right {
-    display: flex;
 }
-
 .left img {
-    width: 150px;
+    width: 25%;
 }
 
+
 .right {
+    flex: 60%;
     position: relative;
-    left: 600px;
-    top: -150px;
     align-items: center;
-    height: 100px;
 }
 
 .navbar-links {
     list-style-type: none;
     display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
 .navbar-links li {
-    margin: 0px 0px 0px 10px;
-    padding: 7px;
+    margin: 0px 0px 0px 20px;
+    padding: 10px;
     font-size: 20px;
 }
 
 .navbar-links li:hover {
     background-color: #533f4d;
     border-radius: 5px;
+    box-shadow: 0 0px 10px #EE7C53;
     cursor: pointer;
 }
 
@@ -259,13 +269,7 @@ select:-webkit-autofill:focus {
     color: #28a745;
 }
 
-/* input:-webkit-autofill{
-    background-image: linear-gradient(#533f4d,#141416);
-     
-     -webkit-text-fill-color:#ffffff;
-    border: 0.5px solid white;
-    border-radius: 5px;
-    /* color: white; */
+
 @keyframes color {
     0% {
         background: -webkit-linear-gradient(#ffffff, #141416);
