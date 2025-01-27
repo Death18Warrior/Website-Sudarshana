@@ -58,6 +58,9 @@ body {
     .left button img{
         width: 15vmax;
     }
+    .dropdown{
+        background-color: #141416bb;
+    }
     .navbar-container{
         background-color: #14141600;
         backdrop-filter: blur(0px);
