@@ -208,6 +208,9 @@ body {
         width: 150px;  /* Adjust the size for smaller screens */
         height: 150px;
     }
+    #contactForm{
+        margin-top: 30px;
+    }
 }
 
 
