@@ -196,6 +196,7 @@ body {
     #impact .photo  {
         width: 150px;  /* Adjust the size for smaller screens */
         height: 150px;
+        margin: auto;
     }
 }
 @media screen and (max-width:600px) {
