@@ -197,6 +197,7 @@ body {
         width: 150px;  /* Adjust the size for smaller screens */
         height: 150px;
         margin: auto;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width:600px) {
