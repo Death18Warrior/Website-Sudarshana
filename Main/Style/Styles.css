@@ -59,10 +59,13 @@ body {
         position: absolute;
     }
     .left button img{
-        width: 15vmax;
+        width: 15vmax; 
     }
     .dropdown{
-        background-color: #141416bb;
+        background-color: #14141600;
+        box-shadow:0 0 10px #EE7C53;
+        border-radius: 100px;
+        
     }
     .navbar-container{
         background-color: #14141600;
@@ -74,9 +77,9 @@ body {
     }
     .left button{
         display: block;
-        background-color: #14141600;
+        background-color: #ff440000;
         text-decoration: none;
-        border: #14141600;
+        border: #0202ff00;
     }
     .left .dropdown{
         width: 15vmax;
@@ -362,7 +365,21 @@ select:-webkit-autofill:focus {
     font-size: 14px;
     color: #28a745;
 }
+footer{
+    color: #ffffff;
+    width: 95%;
+    margin: 2.5%;
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+footer .insta a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 @keyframes color {
     0% {
