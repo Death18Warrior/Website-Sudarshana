@@ -50,6 +50,9 @@ body {
     color: white;
     text-wrap-mode: nowrap;
 }
+.left li{
+    display: none;
+}
 @media screen and (max-width:600px) {
     .left a{
         display: none;
@@ -79,7 +82,7 @@ body {
         width: 15vmax;
         height: 15vmax;
     }
-    .left .dropdown:hover .dropdown_menu a{
+    .left .dropdown:hover .dropdown_menu a,.left .dropdown:hover .dropdown_menu li{
         display: block;
     }
     .dropdown_menu a{
