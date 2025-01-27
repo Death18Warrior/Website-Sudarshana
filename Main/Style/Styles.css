@@ -323,6 +323,7 @@ body {
     border: 0.5px solid white;
     border-radius: 5px;
     color: white;
+    resize: none;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
