@@ -233,6 +233,12 @@ body {
 
 @media screen and (max-width:600px) {
 
+    #overview .photo,
+#features .photo{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
     #how_it_works .photo,
     #impact .photo {
         grid-column: 1/2;
