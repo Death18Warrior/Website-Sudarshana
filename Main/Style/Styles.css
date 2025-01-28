@@ -394,6 +394,11 @@ footer{
     justify-content: space-between;
 }
 
+footer .Email a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 footer .insta a{
     text-decoration: none;
     color: #ffffff;
