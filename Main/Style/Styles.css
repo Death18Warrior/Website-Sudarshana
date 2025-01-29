@@ -35,7 +35,11 @@ body {
     border-radius: 40px;
 
 }
-
+nav a.active {
+    color: #ff6600;
+    font-weight: bold;
+    border-bottom: 2px solid #ff6600;
+}
 .navbar-links a {
     text-decoration: none;
     color: white;
@@ -373,7 +377,7 @@ select:-webkit-autofill:focus {
 #contactForm #form button:hover {
     cursor: pointer;
     background-color: #A3492F;
-    border: 1px solid #EE7C53;
+    border: 2px solid #EE7C53;
     border-radius: 5px;
 }
 
@@ -387,13 +391,18 @@ footer{
     color: #ffffff;
     width: 95%;
     margin: 2.5%;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 3em;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: space-around;
 }
-
+.Email{
+    margin: auto;
+}
+.insta{
+    margin-left: 60%;
+}
 footer .Email a{
     text-decoration: none;
     color: #ffffff;
@@ -402,6 +411,26 @@ footer .Email a{
 footer .insta a{    
     text-decoration: none;
     color: #ffffff;
+}
+@media screen and (max-width:600px) {
+    footer{
+        color: #ffffff;
+        width: 95%;
+        margin: 2.5%;
+        margin-top: 4.5%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: 7em;
+        justify-content: center;
+        align-content: space-around;
+    }
+    .Email{
+        margin: 0;
+    }
+    .insta{
+        margin-left: 0;
+    }
 }
 
 @keyframes color {

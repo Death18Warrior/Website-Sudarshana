@@ -19,4 +19,22 @@ document.addEventListener('DOMContentLoaded', () => {
             dropdownMenu.style.display = 'none';
         }
     });
+    document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("nav a");
+    
+        sections.forEach((section) => {
+            section.addEventListener("mouseenter", () => {
+                let id = section.getAttribute("id");
+                highlightNav(id);
+            });
+        });
+    
+        function highlightNav(id) {
+            navLinks.forEach((link) => {
+                link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
+            });
+        }
+    });
+    
 });
