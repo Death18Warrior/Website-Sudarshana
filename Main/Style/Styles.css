@@ -203,24 +203,24 @@ nav a.active {
     grid-row: 1/2;
     border: 2px solid white;
     border-radius: 50% 0% 50% 0%;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     margin: auto;
 }
 
 #overview .photo img,
 #features .photo img {
     /* object-fit: contain; */
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 50% 0% 50% 0%;
 }
 
 #how_it_works .photo img,
 #impact .photo img {
     border-radius: 0% 50% 0% 50%;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
 }
 
 #how_it_works .photo,
@@ -229,8 +229,8 @@ nav a.active {
     grid-row: 1/2;
     border: 2px solid white;
     border-radius: 0% 50% 0% 50%;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     margin: auto;
 }
 
