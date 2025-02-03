@@ -22,11 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
         section.addEventListener("mouseenter", () => {
             let id = section.getAttribute("id");
             highlightNav(id)
-    });
-
-    function highlightNav(id) {
-        navLinks.forEach((link) => {
-            link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
         });
-    }
+
+        function highlightNav(id) {
+            navLinks.forEach((link) => {
+                link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
+            });
+        }
+
+    })
 });
