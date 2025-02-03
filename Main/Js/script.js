@@ -17,17 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Highlight Active Navigation Link on Section Hover
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("nav a");
-    var x = window.matchMedia("(min-width: 990px)")
 
     sections.forEach((section) => {
         section.addEventListener("mouseenter", () => {
             let id = section.getAttribute("id");
-            function myFunction(x) {
-                if (x.matches) { // If media query matches
-                  highlightNav(id);
-                }
-              }
-        });
+            highlightNav(id)
     });
 
     function highlightNav(id) {
