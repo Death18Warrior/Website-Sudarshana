@@ -38,10 +38,12 @@ body {
 
 }
 
-nav a.active {
-    color: #ff6600;
-    font-weight: bold;
-    border-bottom: 2px solid #ff6600;
+@media screen and (min-width:990px) {
+    nav a.active {
+        color: #ff6600;
+        font-weight: bold;
+        border-bottom: 2px solid #ff6600;
+    }
 }
 
 .navbar-links a {
